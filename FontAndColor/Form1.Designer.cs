@@ -86,6 +86,7 @@
             this.tsbtnFont.Name = "tsbtnFont";
             this.tsbtnFont.Size = new System.Drawing.Size(23, 22);
             this.tsbtnFont.Text = "tsbtnFont";
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
@@ -96,6 +97,7 @@
             this.tsbtnColor.RightToLeftAutoMirrorImage = true;
             this.tsbtnColor.Size = new System.Drawing.Size(23, 22);
             this.tsbtnColor.Text = "tsbtnColor";
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // Form1
             // 
